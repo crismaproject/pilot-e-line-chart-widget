@@ -1,1 +1,2 @@
-pilot-e-line-chart-widget\n===\n
+pilot-e-line-chart-widget
+===
