@@ -1,10 +1,7 @@
-// main app module registration
 angular.module(
-    'de.cismet.myAngularApp',
+    'eu.crismaproject.pilotE.linechart',
     [
-        'de.cismet.myAngularApp.controllers',
-        'de.cismet.myAngularApp.directives',
-        'de.cismet.myAngularApp.services'
+        'eu.crismaproject.pilotE.linechart.directives'
     ]
 );
 
