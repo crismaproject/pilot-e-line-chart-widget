@@ -1,5 +1,5 @@
 <div>
-    <nvd3-line-chart data="data"
+<!--    <nvd3-line-chart data="data"
                      id="pilot-e-linechart"
                      height="{{height}}"
                      width="{{width}}"
@@ -15,12 +15,12 @@
                      useInteractiveGuideLine="true"
                      tooltips="true">
         <svg></svg>
-    </nvd3-line-chart>
+    </nvd3-line-chart>-->
     
-<!--    <nvd3-line-with-focus-chart data="data"
+    <nvd3-line-with-focus-chart data="data"
                      id="pilot-e-linechart"
                      height="{{height}}"
-                     height2="{{height / 4}}"
+                     height2="{{height / 5}}"
                      width="{{width}}"
                      showXAxis="true"
                      showYAxis="true"
@@ -32,7 +32,8 @@
                      forcey="[0, 100]"
                      interactive="true"
                      useInteractiveGuideLine="true"
-                     tooltips="true">
+                     tooltips="true"
+                     objectEquality="true">
         <svg></svg>
-    </nvd3-line-with-focus-chart>-->
+    </nvd3-line-with-focus-chart>
 </div>

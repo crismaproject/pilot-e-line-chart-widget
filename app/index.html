@@ -24,7 +24,7 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-            <pilot-e-linechart height="500"></pilot-e-linechart>
+            <pilot-e-linechart height="500" worldstate-id="381"></pilot-e-linechart>
         </div>
 
         <!--[if lt IE 9]>
@@ -37,6 +37,7 @@
         <script src="bower_components/d3/d3.js" type="text/javascript"></script>
         <script src="bower_components/nvd3/nv.d3.js" type="text/javascript"></script>
         <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js" type="text/javascript"></script>
         <script src="bower_components/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.js" type="text/javascript"></script>
         <!-- endbower -->
 
@@ -45,5 +46,16 @@
         <script src="scripts/directives/_module.js"></script>
         <script src="scripts/directives/pilotELinechart.js" type="text/javascript"></script>
         <!-- endbuild -->
+        
+        <script type="text/javascript">
+            angular.module('eu.crismaproject.pilotE.linechart').config(
+                [
+                    '$provide',
+                    function($provide) {
+                        $provide.constant('ICMM_API', 'http://crisma.cismet.de/pilotEv2/staging/icmm_api');
+                    }
+                ]
+            );
+        </script>
     </body>
 </html>
