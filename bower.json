@@ -19,7 +19,8 @@
     "d3": "3.4.1",
     "nvd3": "1.1.15-beta",
     "angularjs-nvd3-directives": "0.0.7",
-    "angular-resource": "1.2.25"
+    "angular-resource": "1.2.25",
+    "terraformer-wkt-parser": "~1.0.0"
   },
   "devDependencies": {
     "angular-mocks": "1.2.25",
