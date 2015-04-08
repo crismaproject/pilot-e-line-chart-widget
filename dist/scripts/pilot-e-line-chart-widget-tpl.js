@@ -1,4 +1,4 @@
-angular.module('').run(['$templateCache', function($templateCache) {
+angular.module('eu.crismaproject.pilotE.linechart.directives').run(['$templateCache', function($templateCache) {
   'use strict';
 
   $templateCache.put('templates/pilotELinechart.html',
